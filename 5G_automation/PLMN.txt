@@ -1,0 +1,15 @@
+PLMN_A
+RSRP is -110dBm
+
+PLMN_B
+RSRP is -120dBm
+
+PLMN_C
+RSRP is -100dBm
+
+PLMN_D
+RSRP is -90dBm
+
+PLMN_E
+RSRP is -130dBm
+

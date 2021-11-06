@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.9.6 on win32)" generated="20211022 16:54:10.575" rpa="false" schemaversion="2">
+<suite id="s1" name="RACH Testsuite" source="C:\Users\Dell\PycharmProjects\5G Automation\Testsuite\RACH_Testsuite.robot">
+<test id="s1-t1" name="TC_Handover_1.19: Handover failure during active call">
+<kw name="Radio link failure" library="attach_keyword">
+<kw name="Rlf" library="attach_function">
+<msg timestamp="20211022 16:54:10.653" level="INFO">message sent successfully
+RLF failure
+Reestablishment response message</msg>
+<status status="PASS" starttime="20211022 16:54:10.653" endtime="20211022 16:54:10.669"/>
+</kw>
+<status status="PASS" starttime="20211022 16:54:10.653" endtime="20211022 16:54:10.669"/>
+</kw>
+<kw name="gNB Vaildation" library="attach_keyword">
+<kw name="Val GNB" library="attach_function">
+<msg timestamp="20211022 16:54:10.669" level="INFO">Validation for gNB is successful</msg>
+<status status="PASS" starttime="20211022 16:54:10.669" endtime="20211022 16:54:10.669"/>
+</kw>
+<status status="PASS" starttime="20211022 16:54:10.669" endtime="20211022 16:54:10.669"/>
+</kw>
+<kw name="amf validation" library="attach_keyword">
+<kw name="Val Amf" library="attach_function">
+<msg timestamp="20211022 16:54:10.669" level="INFO">Validation for amf is successful</msg>
+<status status="PASS" starttime="20211022 16:54:10.669" endtime="20211022 16:54:10.669"/>
+</kw>
+<status status="PASS" starttime="20211022 16:54:10.669" endtime="20211022 16:54:10.669"/>
+</kw>
+<kw name="ue validation" library="attach_keyword">
+<kw name="Val Ue" library="attach_function">
+<msg timestamp="20211022 16:54:10.669" level="INFO">Validation for ue is successful</msg>
+<status status="PASS" starttime="20211022 16:54:10.669" endtime="20211022 16:54:10.669"/>
+</kw>
+<status status="PASS" starttime="20211022 16:54:10.669" endtime="20211022 16:54:10.669"/>
+</kw>
+<status status="PASS" starttime="20211022 16:54:10.653" endtime="20211022 16:54:10.669"/>
+</test>
+<status status="PASS" starttime="20211022 16:54:10.575" endtime="20211022 16:54:10.669"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="RACH Testsuite">RACH Testsuite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

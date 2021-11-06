@@ -1,0 +1,1 @@
+Tell UE to connect to gNB2
