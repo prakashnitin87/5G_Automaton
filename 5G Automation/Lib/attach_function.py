@@ -216,7 +216,7 @@ class attach_function:
         cell_b = config_file.cell_b
         shutil.move(amf, cell_b)
 
-    def validate_ue(self):
+    #def validate_ue(self):
 
 
 
